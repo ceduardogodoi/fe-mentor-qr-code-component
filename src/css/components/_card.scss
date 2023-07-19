@@ -1,0 +1,32 @@
+.card {
+  padding: 1rem;
+  border-radius: var(--qr-code-border-radius-default);
+  background-color: var(--qr-code-color-white);
+}
+
+.card__body {
+  max-width: 17.625rem;
+}
+
+.card__qr-code {
+  width: 100%;
+  border-radius: var(--qr-code-border-radius-default);
+}
+
+.card__headline {
+  margin-top: 1rem; // 16px
+  font-size: 1.5rem; // 24px
+  font-family: var(--qr-code-font-family-outfit);
+  font-weight: var(--qr-code-font-weight-bold);
+  color: var(--qr-code-color-black);
+  text-align: center;
+}
+
+.card__copy {
+  margin-top: 0.875rem; // 12px
+  font-size: 1rem; // 16px
+  font-family: var(--qr-code-font-family-outfit);
+  font-weight: var(--qr-code-font-weight-regular);
+  color: var(--qr-code-color-grayish-blue);
+  text-align: center;
+}

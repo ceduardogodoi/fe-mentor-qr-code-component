@@ -1,0 +1,18 @@
+:root {
+  // color palette
+  --qr-code-color-white: hsl(0, 0%, 100%);
+  --qr-code-color-light-gray: hsl(212, 45%, 89%);
+  --qr-code-color-grayish-blue: hsl(220, 15%, 55%);
+  --qr-code-color-dark-blue: hsl(218, 44%, 22%);
+  --qr-code-color-black: #000;
+
+  // font families
+  --qr-code-font-family-outfit: "Outfit", sans-serif;
+
+  // font weights
+  --qr-code-font-weight-regular: 400;
+  --qr-code-font-weight-bold: 700;
+
+  // border radius
+  --qr-code-border-radius-default: 12px;
+}

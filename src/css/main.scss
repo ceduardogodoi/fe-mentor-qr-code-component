@@ -1,0 +1,13 @@
+@import "variables";
+@import "globals";
+
+@import "components/card";
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--qr-code-color-light-gray);
+}
