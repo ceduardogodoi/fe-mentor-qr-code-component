@@ -1,15 +1,15 @@
 {
-  "name": "qr-code-component-main",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "qr-code-component",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "css": "sass src/css/main.scss dist/styles.css",
-    "css:watch": "sass --watch src/css/main.scss dist/styles.css"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "sass": "^1.63.6"
+    "sass": "^1.63.6",
+    "vite": "^4.4.0"
   }
 }
